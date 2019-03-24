@@ -15,7 +15,7 @@ Being a self-taught developer, I always felt the lack of knowledge of essential 
 ## What's there?
 **Data structires:**
 
-- [Linked List](/src/LinkedList/README.md)
+- [Linked List](/src/LinkedList/)
 
 And so far that's it.
 
