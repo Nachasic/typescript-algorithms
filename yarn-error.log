@@ -1,0 +1,67 @@
+Arguments: 
+  /Users/alexanderlozhkin/.nvm/versions/node/v10.15.3/bin/node /Users/alexanderlozhkin/.nvm/versions/node/v10.15.3/bin/yarn add @types/jest jest standard-version ts-jest tslint typescript prettier tslint-plugin-prettier tslint-config-prettier tslint-config-Nachasic prettier-config-Nachasic --dev --ignore-scripts --exact
+
+PATH: 
+  /Users/alexanderlozhkin/.nvm/versions/node/v10.15.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/tslint-config-Nachasic: Not found
+      at Request.params.callback [as _callback] (/Users/alexanderlozhkin/.nvm/versions/node/v10.15.3/lib/node_modules/yarn/lib/cli.js:66255:18)
+      at Request.self.callback (/Users/alexanderlozhkin/.nvm/versions/node/v10.15.3/lib/node_modules/yarn/lib/cli.js:129397:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (/Users/alexanderlozhkin/.nvm/versions/node/v10.15.3/lib/node_modules/yarn/lib/cli.js:130369:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (/Users/alexanderlozhkin/.nvm/versions/node/v10.15.3/lib/node_modules/yarn/lib/cli.js:130291:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1125:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "algorithms",
+    "version": "1.0.0",
+    "description": "Data structures and algorithms for TypeScript",
+    "keywords": [],
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "repository": "https://github.com/Nachasic/algorithms",
+    "homepage": "https://github.com/Nachasic/algorithms#readme",
+    "author": {
+      "name": "Nachasic",
+      "email": "nachasic@gmail.com",
+      "url": "https://github.com/Nachasic"
+    },
+    "license": "MIT",
+    "scripts": {
+      "prepublish": "yarn run build",
+      "lint": "tslint -p ./tsconfig.json --type-check",
+      "test": "jest",
+      "prebuild": "rm -rf ./lib",
+      "build": "tsc -p ./tsconfig.build.json",
+      "release": "standard-version"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "engines": {
+      "node": ">= 8"
+    },
+    "files": [
+      "/lib/**/*"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
