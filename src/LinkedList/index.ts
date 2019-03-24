@@ -263,13 +263,17 @@ export default class LinkedList<T = number> {
         return nodes;
     }
 
+    /**
+     * Reverses the list
+     * @returns {LinkedList}
+     */
     public reverse (): LinkedList<T> {
         let currentNode = this.head;
         const head = this.head;
         let previousNode: LinkedListNode<T> | null = null;
 
         while (currentNode) {
-            const next = currentNode;
+            const next = currentNode.next;
             currentNode.next = previousNode;
             previousNode = currentNode;
             currentNode = next;
