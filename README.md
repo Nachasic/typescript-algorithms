@@ -1,41 +1,41 @@
-# algorithms
+# Typed data structures
 
-[![npm](https://img.shields.io/npm/v/algorithms.svg)](https://www.npmjs.com/package/algorithms)
-[![build](https://img.shields.io/travis/Nachasic/algorithms/master.svg)](https://travis-ci.org/Nachasic/algorithms/builds)
-[![coverage](https://img.shields.io/codecov/c/github/Nachasic/algorithms/master.svg)](https://codecov.io/gh/Nachasic/algorithms)
+I use this repo to exercise in data structures and algorithms, based on [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) by [@trekhleb](https://github.com/trekhleb/).
 
-Data structures and algorithms for TypeScript
+## What is it?
+It's me:
 
-[Changelog](https://github.com/Nachasic/algorithms/blob/master/CHANGELOG.md)
+1. Picking a datastructure/algorithm from [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms);
+2. Rewriting it with strong typings in TS using TDD;
+3. Copy-pasting general infro from readme and adding notes on usage.
 
-## Install
+## OMG, why?
+Being a self-taught developer, I always felt the lack of knowledge of essential algorithms and data structures. I do this to fill in the gaps in my expertise and play around with TypeScript.
 
-```sh
-# using npm
-npm install --save algorithms
+## What's there?
+**Data structires:**
 
-# using yarn
-yarn add algorithms
-```
+- [Linked List](/src/LinkedList/README.md)
 
-## Usage
-
-```ts
-// sample code
-```
+And so far that's it.
 
 ## Development
 
 ```sh
 # lint
-yarn run lint
+yarn lint
 
 # build
-yarn run build
+yarn build
 
 # test
-yarn run test
+yarn test
 ```
+
+## Contributions
+I am using this repo as a personal study and playground, no plans to turn this into anything serious. So if you want to contribute a typescript implementation of a data structure/algorithm — you're free to do a PR, but I might not merge it just because it is more interesting for me to build some things myself.
+
+Pointing out errors and brainfarts, adding fixes and test is very much welcome.
 
 ## License
 
