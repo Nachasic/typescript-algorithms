@@ -195,7 +195,7 @@ export default class LinkedList<T = number> {
             typeof arg !== 'function';
 
         if (isInterface(isCorrectValue)) {
-            // reveived a { foo: 'bar' } type of quert
+            // received a { foo: 'bar' } type of quert
             const checkNode = (node: LinkedListNode<T>): boolean => {
                 let result = true;
     
