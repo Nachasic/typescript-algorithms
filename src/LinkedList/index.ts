@@ -125,7 +125,7 @@ export default class LinkedList<T = number> {
         return deletedNode
     }
 
-    /** | null
+    /** 
      * Deletes the last element in the list
      * @returns {LinkedListNode | null} deleted node
      */
