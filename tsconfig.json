@@ -4,7 +4,13 @@
     "lib": ["es6"],
     "module": "commonjs",
     "declaration": true,
-    "importHelpers": true
+    "importHelpers": true,
+    "baseUrl": ".",
+    "downlevelIteration": true,
+    "paths": {
+      "@structures/*": ["src/*"],
+      "@utils/*": ["src/utils/*"]
+    }
   },
   "include": ["src/**/*.ts", "tests/**/*.ts"]
 }
